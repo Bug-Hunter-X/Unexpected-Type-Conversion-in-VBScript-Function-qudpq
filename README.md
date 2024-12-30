@@ -1,0 +1,1 @@
+This example demonstrates a subtle bug in VBScript related to implicit type conversion. The function `f` is intended to return -1, 0, or 1 based on the input `x`. However, due to VBScript's loose typing, if a non-numeric value is passed to the function, type coercion occurs in unexpected ways. This can lead to incorrect results or runtime errors.
